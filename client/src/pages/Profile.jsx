@@ -138,7 +138,8 @@ export default function Profile() {
         className='border p-3 rounded-lg' onChange={handleChange} />
         <button 
         disabled={loading} className='bg-slate-700 text-white rounded-lg p-3
-         uppercase hover:opacity-95 disabled:opacity-80'>{loading ? 'Loading...' : 'Update'}</button>
+         uppercase hover:opacity-95 disabled:opacity-80'>
+          {loading ? 'Loading...' : 'Update'}</button>
      
       </form>
       <div className='flex justify-between mt-5'>
